@@ -12,7 +12,8 @@ F(m) being the smallest one such as F(m) * F(m+1) > prod.
 
 typedef unsigned long long ull;
 
-unsigned long long* productFib(ull prod) {
+unsigned long long* productFib(ull prod)
+{
   static ull fibs[3];
   fibs[0] = 0, fibs[1] = 1;
   while (fibs[0] * fibs[1] < prod) {
