@@ -20,8 +20,7 @@ bool valid_braces(std::string braces)
         
         c = brackets.top();
         
-        switch (braces[i])
-        {
+        switch (braces[i]) {
             case ')':
                 brackets.pop();
                 if (c == '{' || c == '[') { return false; }
