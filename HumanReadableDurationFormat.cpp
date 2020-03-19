@@ -1,5 +1,6 @@
 /*The function must accept a non-negative integer. If it is zero, it just returns "now". 
 Otherwise, the duration is expressed as a combination of years, days, hours, minutes and seconds.
+A year is 365 days and a day is 24 hours.
 */
 
 #include <string>
