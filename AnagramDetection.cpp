@@ -4,6 +4,8 @@ Note: anagrams are case insensitive
 Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
 */
 
+// Есть решение за o(n) с контейнерами
+
 #include <string>
 
 boolisAnagram(std::string test, std::string original)
